@@ -2,8 +2,14 @@ const guestList = [ 'Odino', 'Caparezza', 'Cesare Augusto', 'Merlino', 'Biancane
 
 document.getElementById('check').addEventListener('click', function(){
 
-    let name = document.getElementById('name').value;
+    let nameGuest = document.getElementById('name').value;
 
-    let result = document.getElementById('result'). value;
-    
+    let result = document.getElementById('message');
+
+    if (guestList.includes(nameGuest)) {
+        result.innerHTML = 'Benvenuto'
+    }
+    else {
+        result.innerHTML = ('Non sei stato invitato. Torna a casa.')
+    }
 })
