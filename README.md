@@ -43,4 +43,14 @@ SNACK 2:
         se è dispari lo aggiungo a l'array utilizzando il metodo push
 - stampo in console l'array
 ////////////////////////////////////////////////////
+SNACK 3:
+- dichiaro una variabile con valore aquisito da un prompt
+- ?SE il numero inserito dall'utente non ha 4 cifre
+    - allert
+-:ALTRIMENTI
+    - dichiaro una variabile per la somma con valore 0
+    - inizio un ciclo for per identificare i numeri inseriti dall'utente
+    - sommo i numeri inseriti dall'utente
+    - utilizzo il metodo parsInt per cambiare il tipo di valore da stringa a numeri interi
+    - mostro il risultato in console
 
