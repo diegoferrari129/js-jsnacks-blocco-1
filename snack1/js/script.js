@@ -1,15 +1,23 @@
 const guestList = [ 'Odino', 'Caparezza', 'Cesare Augusto', 'Merlino', 'Biancaneve', 'Il Tutor', 'Ozzy'] 
 
+let flag = false;
+
 document.getElementById('check').addEventListener('click', function(){
 
     let nameGuest = document.getElementById('name').value;
 
-    let result = document.getElementById('message');
+    for (let i = 0; i < guestList.lenght; i++) {
 
-    if (guestList.includes(nameGuest.toLowerCase)) {
-        result.innerHTML = 'Benvenuto'
+        if (nameGuest.toLowerCase() === guestList[i].toLowerCase()) {
+            flag = true;
+        }
+    }
+
+    if (flag) {
+        document.getElementById('message').innerHTML = 'Benvenuto'
     }
     else {
-        result.innerHTML = ('Non sei stato invitato. Torna a casa.')
+        document.getElementById('message').innerHTML = 'Non sei stato invitato. Torna a casa.'
     }
-})
+
+});
