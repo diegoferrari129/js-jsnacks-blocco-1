@@ -42,5 +42,5 @@ SNACK 2:
     - ?SE verifico che il numero sia dispari utilizzando l'operatore resto
         se è dispari lo aggiungo a l'array utilizzando il metodo push
 - stampo in console l'array
-/////////////////////////////////////////////////////
+////////////////////////////////////////////////////
 
