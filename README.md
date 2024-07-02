@@ -21,4 +21,26 @@ La struttura dei file dovrebbe essere la seguente:
 jsnack2 (cartella)
 - index.html
 - script.js`
-e così via (modificato) 
+e così via (modificato)
+
+///////////////////////////////////////////////////////
+SNACK 1:
+- dichiaro una array che contenga la lista degli invitati
+- recupero il valore del bottone dal dom
+- assegno al bottone un eventlistener al click
+    - recupero il valore del campo input per il nome dell'utente
+    - recupero il valore da un'id per il messaggio all'utente
+    - ?SE utilizzo il metodo .inculdes per verificare se l'utente è nella lista degli invitati, se corrisponde
+        - mostro un messaggio di benvenuto
+    - :ALTRIMENTI
+        - mostro un messaggio di rifiuto
+//////////////////////////////////////////////////////
+SNACK 2:
+- dichiaro una array
+- inizio un ciclo for
+    - dichiaro una variabile con valore aquisito da un prompt
+    - ?SE verifico che il numero sia dispari utilizzando l'operatore resto
+        se è dispari lo aggiungo a l'array utilizzando il metodo push
+- stampo in console l'array
+/////////////////////////////////////////////////////
+
