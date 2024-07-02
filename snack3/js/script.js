@@ -10,6 +10,6 @@ else {
     for (let i = 0; i < number.length; i++) {
         
         somma += parseInt(number[i]);
-        console.log(`${somma}`);
+        console.log(`${somma}`); 
     }
 }
