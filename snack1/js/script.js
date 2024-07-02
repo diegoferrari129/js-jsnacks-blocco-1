@@ -6,7 +6,7 @@ document.getElementById('check').addEventListener('click', function(){
 
     let result = document.getElementById('message');
 
-    if (guestList.includes(nameGuest)) {
+    if (guestList.includes(nameGuest.toLowerCase)) {
         result.innerHTML = 'Benvenuto'
     }
     else {
